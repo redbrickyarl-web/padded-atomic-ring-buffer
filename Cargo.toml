@@ -1,0 +1,5 @@
+[package]
+name = "padded-atomic-ring-buffer"
+version = "0.2.0"
+edition = "2021"
+description = "Completed by Grok for Dalton Rosenberg — Elite Silicon-Engine ring buffer"
