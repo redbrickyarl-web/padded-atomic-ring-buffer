@@ -1,5 +1,9 @@
 [package]
-name = "padded-atomic-ring-buffer"
-version = "0.2.0"
+name = "silicon-engine"
+version = "0.1.0"
 edition = "2021"
-description = "Completed by Grok for Dalton Rosenberg — Elite Silicon-Engine ring buffer"
+license = "MIT OR Apache-2.0"
+description = "Lock-free MPMC ring buffer + slab for Aethelarch 60-worker swarm. CAS spin, CachePadded, zero-copy. HFT/bounty ready."
+repository = "https://github.com/redbrickyarl-web/padded-atomic-ring-buffer"
+
+[dependencies]
