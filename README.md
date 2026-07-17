@@ -1,9 +1,5 @@
-# High-Performance Lock-Free Ring Buffer Crate
+# Axiom_Omniplex High-Perf Lock-Free Ring Buffer
 
-MPMC CAS spin-loop fabric with CachePadded alignment for zero false sharing.
+SiliconEngine MPMC CAS spin + Aethelarch Swarm integration. Full Axiom branding restored.
 
-## Install
-[dependencies]
-highperf-concurrency = { git = "https://github.com/redbrickyarl-web/padded-atomic-ring-buffer" }
-
-License: MIT/Apache-2.0. Commercial licensing available. Contact redbrickyarl@gmail.com for pilot terms.
+Contact for full Axiom Omniplex package.
