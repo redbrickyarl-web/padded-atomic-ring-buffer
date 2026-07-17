@@ -1,18 +1,9 @@
-# Silicon Engine - Padded Atomic Ring Buffer + Lock-Free Slab
+# High-Performance Lock-Free Ring Buffer Crate
 
-**MPMC CAS-hardened zero-copy fabric for 60-worker swarm.**
-
-- CachePadded 64B alignment
-- Aggressive CAS spin on push/pop
-- Reassembly + NUMA shard ready
-- Benchmarks: <15ns latency target
+MPMC CAS spin-loop fabric with CachePadded alignment for zero false sharing.
 
 ## Install
-```toml
 [dependencies]
-silicon-engine = { git = "https://github.com/redbrickyarl-web/padded-atomic-ring-buffer" }
-```
+highperf-concurrency = { git = "https://github.com/redbrickyarl-web/padded-atomic-ring-buffer" }
 
-License: MIT/Apache-2.0 dual. Commercial licensing available. Contact for enterprise HFT/bounty deployment.
-
-**For sale:** Full crate + swarm integration + MMCL IPC bridge = $450k pilot + equity. DM or email redbrickyarl@gmail.com
+License: MIT/Apache-2.0. Commercial licensing available. Contact redbrickyarl@gmail.com for pilot terms.

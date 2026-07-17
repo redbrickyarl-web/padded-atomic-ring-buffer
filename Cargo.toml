@@ -1,9 +1,7 @@
 [package]
-name = "silicon-engine"
+name = "highperf-concurrency"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-description = "Lock-free MPMC ring buffer + slab for Aethelarch 60-worker swarm. CAS spin, CachePadded, zero-copy. HFT/bounty ready."
+description = "Lock-free MPMC ring buffer + slab. CAS spin, CachePadded, zero-copy. HFT/bounty ready."
 repository = "https://github.com/redbrickyarl-web/padded-atomic-ring-buffer"
-
-[dependencies]
